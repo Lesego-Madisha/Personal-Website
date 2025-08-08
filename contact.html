@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Lesego Madisha</title>
+  <link rel="stylesheet" href="pw.css" />
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <h1>Lesego Madisha</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mzzvagdo" method="post" enctype="text/plain">
+        <label>Name:</label>
+        <input type="text" name="name" required />
+        <label>Email:</label>
+        <input type="email" name="email" required />
+        <label>Message:</label>
+        <textarea name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+  <canvas id="stars"></canvas>
+  <script src="pw.js"></script>
+</body>
+</html>
